@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import React, { useState } from 'react';
 import Content from './Content';
 import Header from './Header';
@@ -18,6 +18,10 @@ function App() {
     setItems(listItems);
     localStorage.setItem("list", JSON.stringify(listItems));
   }
+
+  // const editItem = (id) => {
+
+  // }
 
   const handleSubmit = (e) => {
     e.preventDefault();

@@ -5,6 +5,10 @@
   background-color: #30313D;
 }
 
+.App {
+  text-align: center;
+}
+
 html {
   font-size: 22px;
 }
